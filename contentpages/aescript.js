@@ -5,153 +5,35 @@ let currentVersion = "english";
 
 const contentVersions = {
   english: [
-    {
-      heading: "Introduction",
-      paragraphs: [
-        "This page presents an overview of Ancient Egypt, from the Predynastic Period to the end of Pharaonic rule. The sources describe early Nile Valley cultures, the unification of Egypt, periods of progress, and achievements in architecture, writing, music, and decoration. The Egyptian State Information Service (SIS) dates the Pharaonic Era from about 3000 BCE until Alexander the Great conquered Egypt in 323 BCE. (Source: SIS)",
-      ],
-    },
-    {
-      heading: "Predynastic Period",
-      paragraphs: [
-        "The Predynastic Period lasted from 5500 to 3100 BCE. It came before writing appeared in Egypt at the end of the Neolithic period. Important Nile Valley cultures included Buto, Maadi, Merimda, Badari, Faiyum, and Naqada I, II, and III. Cemeteries, statues, palettes, and stone tools provide evidence about this period. (Source: NMEC)",
-      ],
-    },
-    {
-      heading: "Unification of Egypt",
-      paragraphs: [
-        "The Early Dynastic Period lasted from 3100 to 2686 BCE and included Dynasties I and II. It marked the beginning of recorded history. Attempts to unite northern and southern Egypt ended with the First Dynasty, and Memphis became the capital of the unified state. Famous kings included Narmer and Khasekhemwy. Important archaeological sites included Helwan, Saqqara, Atfih, and Abydos. (Source: NMEC.) SIS states that Menes unified northern and southern Egypt in 3200 BCE, established the first ruling dynasty, and founded Memphis near the Delta to secure Egypt’s unity. This date differs from NMEC’s Early Dynastic Period dates and requires verification. (Sources: SIS and NMEC.)",
-      ],
-    },
-    {
-      heading: "Old Kingdom",
-      paragraphs: [
-        "The Old Kingdom included Dynasties III to VI. It was a period of stability, security, peace, and economic, cultural, and artistic progress. Zoser built the oldest known pyramid at Saqqara. The Giza pyramids were built for Khufu, Khafre, and Menkaure. (Source: SIS.)",
-      ],
-    },
-    {
-      heading: "First Intermediate Period",
-      paragraphs: [
-        "SIS states that the First Intermediate Period began in 2200 BCE. It also states that Mentuhotep II reunified Egypt. (Source: SIS.)",
-      ],
-    },
-     {
-      heading: "Middle Kingdom",
-      paragraphs: [
-        "The Middle Kingdom included Dynasties XI and XII. Amenemhet I played an important role in its renaissance around 2000 BCE. (Source: SIS.)",
-      ],
-    },
-    {
-      heading: "Second Intermediate Period",
-      paragraphs: [
-        "The Second Intermediate Period began in 1725 BCE when the Hyksos attacked Egypt. The Theban princes, led by Ahmose I, expelled them. Ahmose I then built a well-equipped army. (Source: SIS.)",
-      ],
-    },
-    {
-      heading: "New Kingdom",
-      paragraphs: [
-        "SIS calls Dynasties XVIII–XX the “Modern Kingdom” in its English text. This page uses the more familiar term “New Kingdom.” Ramses II signed the first peace treaty in history with the Hittites. (Source: SIS.)",
-      ],
-    },
-    {
-      heading: "Late and Ptolemaic Periods",
-      paragraphs: [
-        "The Late Age included Dynasties XXI to XXX. The Assyrians and Persians occupied Egypt. Pharaonic rule ended during Dynasty XXX when Alexander the Great conquered Egypt. The supplied facts do not describe the Ptolemaic Period separately, so this section needs verification before further details are added. (Source: SIS.)",
-      ],
-    },
-    {
-      heading: "Ancient Egyptian Achievements",
-      paragraphs: [
-        "Ancient Egyptians built 97 pyramids as royal tombs. Famous monuments included the Giza pyramids, the Sphinx, Karnak, Luxor, Abu Simbel, and the Valley of the Kings. They invented writing, later called hieroglyphs by the Greeks, and wrote on papyrus using black or red ink. Important religious texts included the Pyramid Texts and the Book of the Dead. Music was used in education, ceremonies, the army, prayer, and burials. Egyptian ornaments also used natural motifs such as papyrus, palm trees, and lotus flowers, as well as precious stones. (Source: SIS.)",
-      ],
-    },
-     {
-      heading: "Sources",
-      paragraphs: [
-        "National Museum of Egyptian Civilization (NMEC), “Historical Timeline”: https://nmec.gov.eg/ar/historical-timeline/ Egyptian State Information Service (SIS), “Pharaonic Era”: https://sis.gov.eg/en/egypt/history/egypts-history/pharaonic-era/",
-      ],
-    },
-
+    { heading: "Introduction", paragraphs: ["Ancient Egypt is not a single moment. It is nearly three thousand years of continuous culture along one river, from farming villages around 5500 BC to the death of Cleopatra VII in 30 BC. What stayed constant was the shape of the state: a king who guaranteed order, scribes who counted grain, and temples that held the calendar. What changed was scale, and who was holding the crown.","A civilization arranged around a flood. Egypt is a narrow strip of habitable land in a desert, and almost everyone lived within sight of the Nile. The river set the working year: the flood covered the fields, the water withdrew and left silt, the crop grew, and the harvest came in. A state that could measure the flood, count the grain and move labour at the right moment could feed a population that no other part of Africa could support at the time."] },
+    { heading: "Predynastic Period (5500–3100 BC)", paragraphs: ["Egypt begins as a collection of farming communities along the Nile, not as a single country. The official Egyptian timeline names the main cultural groups of this long period: Badari, Naqada I, II and III, Maadi and Fayoum, among others. These were not kingdoms but regional cultures, each with its own pottery styles, burial customs and settlement patterns, and knowledge of them comes mostly from cemeteries, stone tools and small statues rather than written records, because writing did not yet exist.","Over these two and a half thousand years, several things happened at once. Agriculture spread and intensified, villages grew into towns, and clear social differences appeared in the cemeteries: some graves held far more goods than others, which is the archaeological signature of a society developing elites. Trade routes ran south into Nubia and east into the Levant, bringing in materials Egypt did not have, and the Nile itself became the connective tissue holding these communities together. By the end of the period, around 3200–3100 BC, writing appears in the form of labels and jar inscriptions, and the first signs of a unified state are visible. The official Egyptian timeline places the appearance of writing at the very end of the Neolithic, around 3100 BC, which is also the moment the country becomes visible to us as a state with names, titles and accounts."] },
+    { heading: "Early Dynastic Period and the Unification of Egypt (3100–2686 BC)", paragraphs: ["This is the period of unification, and it is where Egypt stops being a collection of regional cultures and becomes a single state. The First and Second Dynasties open with the unification of northern and southern Egypt and the establishment of Memphis as the capital. Narmer is the king most closely associated with that founding moment, and the cemeteries of Helwan, Saqqara, Atfih and Abydos preserve the monuments of his era.","The famous Narmer Palette, showing a king in the crown of Upper Egypt on one face and the crown of Lower Egypt on the other, is usually read as a record of that unification, though scholars still argue whether it describes a specific battle or presents kingship in symbolic form. The stronger evidence that Narmer was the first king of the First Dynasty comes from seal impressions in royal tombs at Abydos, which list the kings of the dynasty in order. What matters more than the debate is what followed: from this point Egypt is administered. There are titles, granaries, workshops, mining expeditions, a court that moves between palaces, and a writing system that can record all of it. That administrative machine, more than any single monument, is the real achievement of the early dynasties."] },
+    { heading: "Old Kingdom (2686–2181 BC)", paragraphs: ["The Old Kingdom is the pyramid-builders' period, but it is better understood as a sequence of engineering decisions than as a single leap. It begins with Djoser, whose first stone pyramid was designed by the architect Imhotep at Saqqara, around 2686–2667 BC. Then the engineers of Sneferu ran a series of experiments, first at Meidum and then at Dahshur, until they produced the first complete pyramid, the Red Pyramid. Only after those attempts came the pyramids of Giza and the Great Sphinx.","The Giza plateau is best understood as a complex, not three isolated monuments. Each royal pyramid was the centre of a working institution: smaller pyramids for queens, a satellite pyramid acting as a second symbolic tomb, mastaba tombs for nobles and family, boat burials, and a pair of temples joined by a decorated causeway. The valley temple stood at the water's edge where boats docked; the funerary temple stood at the foot of the pyramid, where priests maintained the mortuary cult and presented offerings for the king's afterlife. The Great Pyramid was built for Khufu (c. 2589–2566 BC), and it is the oldest and largest of the three, with the first building to exceed its height not appearing for another 3,800 years.","The Fifth and Sixth Dynasties continued building, but on a smaller scale, and the Pyramid Texts carved inside Unas's pyramid at Saqqara are the oldest decorated burial chamber in Egypt. By the end of the Sixth Dynasty, central authority was weakening, provincial governors were becoming hereditary, and the country was sliding toward fragmentation. The Old Kingdom did not collapse overnight; it dissolved over roughly a century as local rulers stopped sending taxes and labour to the capital."] },
+    { heading: "First Intermediate Period (2181–2055 BC)" , paragraphs: ["This is the period Egyptian sources describe as civil war and a decline in political and economic conditions. The Ninth and Tenth Dynasties ruled from Herakleopolis in the north, while a rival line, the Eleventh Dynasty, rose at Thebes in the south. For over a century, two governments claimed to rule the same country.","It was not a golden age, but it was not empty either. Local rulers built on a smaller scale, literature began to reflect on the breakdown of order, and the period produced the political conditions that made reunification possible. When Mentuhotep II of Thebes finally defeated the Herakleopolitan line, he was not just winning a war; he was rebuilding a state that had spent a century learning how to live without one."] },
+    { heading: "Middle Kingdom (2055–1650 BC)", paragraphs: ["The Middle Kingdom begins when Mentuhotep II reunified the country. His dynasty started at Thebes, and the Twelfth Dynasty then moved the capital north to Lisht, near Fayoum. Official accounts credit this period with rebuilding the authority of central government, sending mining missions, encouraging trade, and carrying out large agricultural projects in Fayoum, which turned a depression into farmland and expanded the country's productive base.","It also produced a transformation in the Egyptian language and literature. The Middle Kingdom is often treated as the classical age of the written word rather than an age of monuments, and the prose and poetry of this period became the models later generations copied. Art changed too: officials and ordinary people began to appear as individuals rather than as stiff attendants, and the style became more personal and less rigid. If the Old Kingdom is remembered for stone, the Middle Kingdom is remembered for prose, poetry and a more human way of seeing people.","The Twelfth Dynasty was strong, but the Thirteenth weakened, provincial rulers reasserted themselves, and by around 1650 BC the country was fragmenting again, this time with a foreign population, the Hyksos, taking control of the north."] },
+    { heading: "Second Intermediate Period (1650–1550 BC)", paragraphs: ["The Second Intermediate Period is the era of the Hyksos, a population of Levantine origin who established themselves in the north, with their capital at Avaris in the eastern Delta. Egyptian sources describe this as a period of foreign rule, though the reality was more complicated: the Hyksos adopted Egyptian royal titles, worshipped Egyptian gods alongside their own, and ruled through Egyptian-style institutions.","In the south, the Theban Sixteenth and Seventeenth Dynasties held out, and the conflict between Thebes and the Hyksos became the defining struggle of the period. It ended when Ahmose of the Eighteenth Dynasty expelled the Hyksos and reunified the country, which is the event that opens the New Kingdom. The lesson the Egyptians took from this period shaped the next five hundred years: never again allow a foreign power to hold the Delta, and never again let the army be weak enough for that to happen."] },
+    { heading: "New Kingdom (1550–1069 BC)", paragraphs: ["The New Kingdom is the imperial period. It opens with Ahmose expelling the Hyksos, and Egypt extends its borders to the fourth cataract in the south and into the Levant in the north. Its best-known kings are Thutmose III, Hatshepsut, Akhenaten, Tutankhamun and Ramesses II, and its monuments are the temples of Luxor and Karnak, the terraced temple of Hatshepsut at Deir el-Bahari, and the tombs of the Valley of the Kings and the Valley of the Queens.","Hatshepsut, who ruled for about fifteen years in the early Eighteenth Dynasty, sent a trading expedition to Punt and built the terraced temple at Deir el-Bahari. Thutmose III expanded the empire through a series of campaigns in the Levant. Akhenaten, in the mid-Eighteenth Dynasty, attempted a religious revolution centred on the Aten, moved the capital to Amarna, and after his death the old order was restored under Tutankhamun. Ramesses II, of the Nineteenth Dynasty, ruled for over sixty years and built on a scale that still defines the period, including Abu Simbel, cut into the living rock around 1264 BC with four colossal seated statues on its façade and a sun alignment that illuminates the inner sanctuary on 22 February and 22 October each year.","The Valley of the Kings is the clearest example of a civilisation learning from its own mistakes. Old and Middle Kingdom pyramids had been robbed, so New Kingdom kings chose hidden underground tombs in an isolated desert valley on the west bank of the Nile at Thebes, dug beneath a natural pyramid-shaped peak sacred to a funerary aspect of Hathor. The valley holds more than sixty tombs plus about twenty unfinished ones, and the official responsible for Thutmose I's tomb left a line that still reads like a security briefing: 'I oversaw the excavation of the cliff-tomb of his Person in privacy; none seeing, none hearing.' Concealment did not work forever. Tutankhamun's tomb survived nearly intact only because debris buried its entrance, and the golden mask that covered his head and shoulders came from that accident of geology rather than from any design.","By the end of the Twentieth Dynasty, the empire was shrinking, the treasury was strained, and the priests of Amun at Thebes were becoming a power in their own right. The New Kingdom did not end with a conquest; it ended with the centre losing its grip."] },
+    { heading: "Late Period (747–332 BC)", paragraphs: ["The Late Period is the age of the last Egyptian dynasties. Under Libyan rule the country stayed divided until the end of the Twenty-Fourth Dynasty, when Psamtik, prince of Sais, exploited Assyria's entanglement with Babylon, expelled the Assyrian garrison and declared himself king in 663 BC, founding the Twenty-Sixth Dynasty. Egyptian sources call it an era of reform and renaissance, and it produced a revival of art, architecture and administration that consciously looked back to earlier periods.","Then came Persia. Cambyses conquered Egypt and the Twenty-Seventh Dynasty consisted of Persian rulers, though Egyptians rebelled whenever they had the chance. The Twenty-Eighth and Twenty-Ninth Dynasties saw rulers change rapidly, and the Thirtieth was relatively strong but could not withstand the second Persian invasion. Nectanebo II is counted as the last native king of Egypt, and after him the country was ruled from outside, which is the hinge on which the ancient page turns toward the Greek and Roman world."] },
+    { heading: "Ptolemaic Period (332–30 BC)", paragraphs: ["Alexander the Great entered Egypt without resistance, made a journey to the Siwa Oasis where he was declared the son of Amun, and ordered the founding of Alexandria. After his death, his general Ptolemy I founded the Ptolemaic Dynasty, took the title of king and made Alexandria the capital.","The Ptolemies adopted Egyptian royal traditions and had themselves portrayed on public monuments in Egyptian style, while Hellenistic culture shaped the city: the library of Alexandria and the lighthouse were products of that hybrid court. Egyptian sources describe the period as culturally continuous despite political turmoil, lasting until the death of Cleopatra VII in 30 BC. For three centuries, a Greek-speaking dynasty funded Egyptian temples, was depicted as pharaoh, and ruled a country that still wrote in hieroglyphs, which is a reminder that ancient Egypt did not end with a single conquest but adapted, then slowly transformed, until the Roman province replaced the kingdom."] },
+    { heading: "Roman Period (30 BC–395 AD)", paragraphs: ["After Cleopatra's death, Egypt became a Roman province, and for the next four centuries it was one of the empire's most important sources of grain. Egyptian temples continued to function, hieroglyphic writing continued in use, and the country remained culturally distinct even as it was politically absorbed.","The Roman period is where the ancient page ends, not because Egyptian civilisation disappeared but because the political form that had defined it — a native king ruling a unified state — was gone. What survived was the culture, the language, the religion and the monuments, which is why the next page of this site begins not with a new civilisation but with the same country under new rulers."] },
   ],
-
   arabic: [
-    {
-      heading: "مقدمة",
-      paragraphs: [
-        "تقدم هذه الصفحة لمحة عن تاريخ مصر القديمة، من عصر ما قبل الأسرات إلى نهاية الحكم الفرعوني. وتوضح المصادر تطور المجتمعات في وادي النيل، وتوحيد مصر، وازدهار الحضارة، وما حققه المصريون القدماء في العمارة والكتابة والموسيقى والزخرفة. وتؤرخ الهيئة العامة للاستعلامات العصر الفرعوني من نحو 3000 ق.م. حتى فتح الإسكندر الأكبر لمصر عام 323 ق.م. (المصدر: SIS).",
-      ],
-    },
-    {
-      heading: "عصر ما قبل الأسرات",
-      paragraphs: [
-        "امتد هذا العصر من 5500 إلى 3100 ق.م.، وسبق ظهور الكتابة في مصر في نهاية العصر الحجري الحديث. وشملت الثقافات المهمة في وادي النيل بوتو، والمعادي، ومريمدة، والبداري، والفيوم، ونقادة الأولى والثانية والثالثة. ويستدل الباحثون على هذه الفترة من خلال الجبانات والتماثيل والصلايات والأدوات الحجرية. (المصدر: NMEC).",
-      ],
-    },
-    {
-      heading: "توحيد مصر",
-      paragraphs: [
-        "امتد عصر بداية الأسرات من 3100 إلى 2686 ق.م.، وشمل الأسرتين الأولى والثانية، وبدأ فيه التاريخ المسجل. وانتهت محاولات توحيد شمال مصر وجنوبها بقيام الأسرة الأولى، وأصبحت منف عاصمة الدولة الموحدة. ومن أشهر الملوك نارمر وخع سخموي، ومن المواقع الأثرية المهمة حلوان وسقارة وأطفيح وأبيدوس. (المصدر: NMEC).  وتذكر SIS أن مينا وحّد شمال مصر وجنوبها عام 3200 ق.م.، وأسس أول أسرة حاكمة، كما أسس منف قرب الدلتا لضمان وحدة البلاد. ويختلف هذا التاريخ عن تاريخ بداية الأسرات لدى NMEC، ويحتاج الاختلاف إلى التحقق. (المصدران: SIS وNMEC).",
-      ],
-    },
-    {
-      heading: "الدولة القديمة",
-      paragraphs: [
-        "شملت الدولة القديمة الأسرات من الثالثة إلى السادسة، وشهدت الاستقرار والأمن والسلام والتقدم الاقتصادي والثقافي والفني. وبنى زوسر أقدم هرم معروف في سقارة، وشُيدت أهرامات الجيزة لخوفو وخفرع ومنقرع. (المصدر: SIS).",
-      ],
-    },
-    {
-      heading: " عصر الانتقال الأول",
-      paragraphs: [
-        "بدأ هذا العصر عام 2200 ق.م. وفقًا لـSIS، وتذكر الهيئة أن منتوحتب الثاني أعاد توحيد مصر. (المصدر: SIS).",
-      ],
-    },
-     {
-      heading: "الدولة الوسطى",
-      paragraphs: [
-        "شملت الدولة الوسطى الأسرتين الحادية عشرة والثانية عشرة. وأسهم أمنمحات الأول بدور مهم في نهضتها نحو عام 2000 ق.م. (المصدر: SIS).",
-      ],
-    },
-    {
-      heading: "عصر الانتقال الثاني",
-      paragraphs: [
-        "بدأ هذا العصر عام 1725 ق.م. عندما هاجم الهكسوس مصر. وتمكن أمراء طيبة بقيادة أحمس الأول من طردهم، ثم أنشأ أحمس جيشًا مجهزًا جيدًا. (المصدر: SIS).",
-      ],
-    },
-    {
-      heading: "الدولة الحديثة",
-      paragraphs: [
-        "تسمي SIS الأسرات الثامنة عشرة إلى العشرين «المملكة الحديثة» في نصها الإنجليزي، ويُستخدم هنا المصطلح الشائع «الدولة الحديثة». ووقّع رمسيس الثاني أول معاهدة سلام في التاريخ مع الحيثيين. (المصدر: SIS).",
-      ],
-    },
-    {
-      heading: "العصر المتأخر والعصر البطلمي",
-      paragraphs: [
-        "شمل العصر المتأخر الأسرات من الحادية والعشرين إلى الثلاثين. واحتل الآشوريون والفرس مصر، وانتهى الحكم الفرعوني خلال الأسرة الثلاثين عندما فتح الإسكندر الأكبر مصر. ولا تتضمن الحقائق المقدمة تفاصيل عن العصر البطلمي؛ لذلك يحتاج هذا الجزء إلى التحقق قبل إضافة معلومات. (المصدر: SIS).",
-      ],
-    },
-    {
-      heading: "إنجازات المصريين القدماء",
-      paragraphs: [
-        "بنى المصريون القدماء 97 هرمًا بوصفها مقابر ملكية. ومن آثارهم الشهيرة أهرامات الجيزة وأبو الهول والكرنك والأقصر وأبو سمبل ووادي الملوك. واخترعوا الكتابة التي سماها اليونانيون لاحقًا الهيروغليفية، وكتبوا على البردي بالحبر الأسود أو الأحمر. وشملت نصوصهم الدينية المهمة نصوص الأهرام وكتاب الموتى. واستخدموا الموسيقى في التعليم والاحتفالات والجيش والصلاة والدفن. كما استوحوا الزخارف من البردي والنخيل وزهور اللوتس، واستخدموا الأحجار الكريمة. (المصدر: SIS).",
-      ],
-    },
-     {
-      heading: "المصادر",
-      paragraphs: [
-        "National Museum of Egyptian Civilization (NMEC), “Historical Timeline”: https://nmec.gov.eg/ar/historical-timeline/ Egyptian State Information Service (SIS), “Pharaonic Era”: https://sis.gov.eg/en/egypt/history/egypts-history/pharaonic-era/",
-      ],
-    },
-
+    { heading: "مقدمة", paragraphs: ["مصر القديمة ليست لحظة واحدة. بل هي ما يقرب من ثلاثة آلاف عام من الثقافة المستمرة على ضفاف نهر واحد، من القرى الزراعية في نحو 5500 ق.م إلى وفاة كليوباترا السابعة في 30 ق.م. ما ظل ثابتًا كان شكل الدولة: ملك يضمن النظام، وكتبة يحسبون الحبوب، ومعابد تحتفظ بالتقويم. ما تغيّر كان المدى، ومن كان يحمل التاج.", "مصر هي شريط ضيق من الأرض الصالحة للحياة داخل صحراء، وكان الجميع تقريبًا يعيشون على مرمى النظر من النيل. النهر هو الذي نظم سنة العمل: يأتي الفيضان فيغطي الحقول، ثم ينسحب تاركًا الطمي، فينمو المحصول، ويأتي الحصاد. والدولة التي تستطيع قياس الفيضان، وحصر الغلال، وتحريك اليد العاملة في التوقيت الصحيح، تستطيع إطعام سكان لا تستطيع أي بقعة أخرى في أفريقيا في ذلك الوقت دعمهم."] },
+    { heading: "عصر ما قبل الأسرات (5500–3100 ق.م)", paragraphs: ["تبدأ مصر كمجموعة من المجتمعات الزراعية على ضفاف النيل، لا كدولة واحدة. ويذكر التسلسل الزمني الرسمي المصري المجموعات الثقافية الرئيسية لهذه الفترة الطويلة: البداري، ونقادة الأولى والثانية والثالثة، والمعادي، والفيوم، وغيرها. لم تكن هذه ممالك، بل ثقافات إقليمية، لكل منها أساليب فخارية وعادات دفن وأنماط استيطان خاصة، وتأتي معرفتنا بها في معظمها من الجبانات والأدوات الحجرية والتماثيل الصغيرة، لا من سجلات مكتوبة، لأن الكتابة لم تكن قد ظهرت بعد.", "على مدى هذه الألفين ونصف الألف سنة، حدثت عدة أمور في وقت واحد. انتشرت الزراعة وتكثفت، ونمت القرى لتصبح مدنًا، وظهرت فروق اجتماعية واضحة في الجبانات: بعض القبور احتوت على سلع أكثر بكثير من غيرها، وهي البصمة الأثرية لمجتمع يتطور فيه نخبة حاكمة. وامتدت طرق التجارة جنوبًا إلى النوبة وشرقًا إلى بلاد الشام، جالبة مواد لم تكن مصر تملكها، وأصبح النيل نفسه النسيج الرابط بين هذه المجتمعات. وبنهاية الفترة، حوالي 3200–3100 ق.م، تظهر الكتابة في شكل ملصقات ونقوش على الجرار، وتظهر أولى علامات دولة موحدة. ويضع التسلسل الزمني الرسمي ظهور الكتابة في نهاية العصر الحجري الحديث، حوالي 3100 ق.م، وهو أيضًا اللحظة التي تظهر فيها البلاد أمامنا دولة لها أسماء وألقاب وحسابات."] },
+    { heading: "عصر الأسر المبكرة وتوحيد مصر (3100–2686 ق.م)", paragraphs: ["هذه هي فترة التوحيد، وهي اللحظة التي تتوقف فيها مصر عن كونها مجموعة من الثقافات الإقليمية وتصبح دولة واحدة. تبدأ الأسرتان الأولى والثانية بتوحيد مصر الشمالية والجنوبية وبإنشاء منف عاصمةً للدولة. والملك نارمر هو الأكثر ارتباطًا بهذه اللحظة التأسيسية، وتحفظ جبانات حلوان وسقارة وأطفيح وأبيدوس آثار عصره.", "وتُقرأ لوحة نارمر الشهيرة، التي يظهر فيها الملك بتاج الوجه القبلي على وجه وب‍تاج الوجه البحري على الوجه الآخر، عادةً على أنها تسجيل لذلك التوحيد، وإن كان الباحثون لا يزالون يختلفون: هل تصف اللوحة معركة بعينها أم تعبّر عن الملكية في صورة رمزية؟ أما الدليل الأقوى على أن نارمر كان أول ملوك الأسرة الأولى فيأتي من طبعات الأختام في المقابر الملكية بأبيدوس، وهي تسرد ملوك الأسرة بالترتيب. والأهم من الجدل هو ما تلاه: من هذه اللحظة تصبح مصر بلدًا مُدارًا. ألقاب، وصوامع غلال، وورش، وبعثات تعدين، وبلاط ينتقل بين القصور، ونظام كتابة يستطيع تسجيل كل ذلك. هذا الجهاز الإداري، أكثر من أي أثر منفرد، هو الإنجاز الفعلي للأسرات المبكرة."] },
+    { heading: "الدولة القديمة (2686–2181 ق.م)", paragraphs: ["الدولة القديمة هي عصر بناة الأهرامات، لكنها أفضل أن تُفهم كسلسلة من القرارات الهندسية لا كقفزة واحدة. تبدأ بزوسر، الذي صمّم مهندسه إيمحوتب أول هرم حجري في سقارة حوالي 2686–2667 ق.م. ثم أجرى مهندسو سنفرو سلسلة تجارب، أولًا في ميدوم ثم في دهشور، حتى أنتجوا أول هرم كامل، الهرم الأحمر. وبعد هذه المحاولات جاءت أهرامات الجيزة وأبو الهول.", "والأفضل أن يُفهم هضبة الجيزة كمجموعة متكاملة، لا كـثلاثة آثار منفصلة. كان كل هرم ملكي مركز مؤسسة عاملة: أهرامات أصغر للملكات، وهرم تابع يقوم بدور مقبرة رمزية ثانية، ومصاطب للنبلاء وأفراد الأسرة، ومقابر مراكب، وزوج من المعابد يربطهما طريق صاعد مزخرف. كان معبد الوادي على حافة الماء حيث ترسو المراكب، وكان معبد الجنائز عند سفح الهرم، حيث كان الكهنة يقومون بعبادة الملك المتوفى ويقدمون القرابين من أجل حياته في العالم الآخر. وبُني الهرم الأكبر للملك خوفو (حوالي 2589–2566 ق.م)، وهو الأقدم والأكبر بين الثلاثة، ولم يُبنَ مبنى يتجاوز ارتفاعه إلا بعد 3800 سنة أخرى.", "واستمرت الأسرتان الخامسة والسادسة في البناء على نطاق أصغر، والنصوص الهرمية المنقوشة داخل هرم أوناس في سقارة هي أقدم غرفة دفن مزخرفة في مصر. وبنهاية الأسرة السادسة، كانت السلطة المركزية تضعف، وحكام الأقاليم يصبحون وراثيين، والبلاد تنزلق نحو التفكك. لم تنهار الدولة القديمة في ليلة، بل ذابت على مدى قرن تقريبًا مع توقف الحكام المحليين عن إرسال الضرائب والأيدي العاملة إلى العاصمة."] },
+    { heading: "عصر الانتقال الأول (2181–2055 ق.م)", paragraphs: ["هذه هي الفترة التي تصفها المصادر المصرية بالحروب الأهلية وتراجع الأحوال السياسية والاقتصادية. حكمت الأسرة التاسعة والعاشرة من هيراكليوبوليس في الشمال، بينما ظهرت أسرة منافسة، الأسرة الحادية عشرة، في طيبة في الجنوب. ولأكثر من قرن، ادعت حكومتان أنهما تحكمان البلاد نفسها.", "لم تكن عصرًا ذهبيًا، لكنها لم تكن فارغة أيضًا. بنى الحكام المحليون على نطاق أصغر، وبدأ الأدب يعكس التفكك، وأنتجت الفترة الظروف السياسية التي جعلت إعادة التوحيد ممكنة. وحين هزم منتوحتب الثاني من طيبة الخط الهيراكليوبولي، لم يكن يكسب حربًا فقط، بل كان يعيد بناء دولة قضت قرنًا تتعلم كيف تعيش بدونها."] },
+    { heading: "الدولة الوسطى (2055–1650 ق.م)", paragraphs: ["تبدأ الدولة الوسطى حين وحّد الملك منتوحتب الثاني البلاد. بدأت أسرته في طيبة، ثم نقلت الأسرة الثانية عشرة العاصمة شمالًا إلى اللشت قرب الفيوم. وتنسب الروايات الرسمية إلى هذه الفترة إعادة بناء سلطة الحكومة المركزية، وإرسال بعثات التعدين، وتشجيع الرحلات التجارية، وتنفيذ مشروعات زراعية كبيرة في الفيوم، حوّلت منخفضًا إلى أرض زراعية ووسعت القاعدة الإنتاجية للبلاد.", "كما أنتجت تحولًا في اللغة والأدب المصري. وتُعد الدولة الوسطى غالبًا العصر الكلاسيكي للكلمة المكتوبة أكثر من كونها عصر آثار ضخمة، وأصبح النثر والشعر في هذه الفترة نماذج نسخها الأجيال اللاحقة. تغير الفن أيضًا: بدأ الموظفون والناس العاديون يظهرون كأفراد لا كتوابع متصلبين، وأصبح الأسلوب أكثر خصوصية وأقل صرامة. إذا كانت الدولة القديمة تُذكر من أجل الحجر، فإن الدولة الوسطى تُذكر من أجل النثر والشعر وطريقة أكثر إنسانية في رؤية الناس.", "كانت الأسرة الثانية عشرة قوية، لكن الثالثة عشرة ضعفت، وأعاد حكام الأقاليم فرض أنفسهم، وحوالي 1650 ق.م كانت البلاد تتفتت من جديد، هذه المرة مع سكان أجانب، الهكسوس، يسيطرون على الشمال."] },
+    { heading: "عصر الانتقال الثاني (1650–1550 ق.م)", paragraphs: ["عصر الانتقال الثاني هو عصر الهكسوس، سكان من أصل شامي استقروا في الشمال، وعاصمتهم أواريس في شرق الدلتا. تصفهم المصادر المصرية بفترة حكم أجنبي، وإن كانت الحقيقة أكثر تعقيدًا: تبنى الهكسوس الألقاب الملكية المصرية، وعبدوا الآلهة المصرية إلى جانب آلهتهم، وحكموا عبر مؤسسات على النمط المصري.", "وفي الجنوب، صمدت الأسرتان السادسة عشرة والسابعة عشرة في طيبة، وأصبح الصراع بين طيبة والهكسوس هو الصراع المحدد للفترة. وانتهى حين طرد أحمس من الأسرة الثامنة عشرة الهكسوس وأعاد توحيد البلاد، وهو الحدث الذي يفتح الدولة الحديثة. والدرس الذي أخذه المصريون من هذه الفترة شكّل خمسمئة سنة تالية: لا تسمح أبدًا لقوة أجنبية بالسيطرة على الدلتا، ولا تسمح أبدًا للجيش بأن يضعف بما يكفي لحدوث ذلك."] },
+    { heading: "الدولة الحديثة (1550–1069 ق.م)", paragraphs: ["الدولة الحديثة هي العصر الإمبراطوري. تبدأ بطرد أحمس للهكسوس، وتوسّع مصر حدودها إلى الشلال الرابع جنوبًا وإلى بلاد الشام شمالًا. وأشهر ملوكها تحتمس الثالث وحتشبسوت وأخناتون وتوت عنخ آمون ورمسيس الثاني، وآثارها معبدا الأقصر والكرنك، ومعبد حتشبسوت المدرج في الدير البحري، ومقابر وادي الملوك ووادي الملكات.", "حكمت حتشبسوت نحو خمس عشرة سنة في بداية الأسرة الثامنة عشرة، وأرسلت بعثة تجارية إلى بلاد بونت وبنت المعبد المدرج في الدير البحري. ووسع تحتمس الثالث الإمبراطورية عبر سلسلة حملات في بلاد الشام. وحاول أخناتون، في منتصف الأسرة الثامنة عشرة، ثورة دينية مركزها آتون، ونقل العاصمة إلى أخيتاتون، وبعد وفاته أعادت النظام القديم في عهد توت عنخ آمون. وحكم رمسيس الثاني، من الأسرة التاسعة عشرة، أكثر من ستين سنة وبنى على نطاق ما زال يحدد الفترة، بما في ذلك أبو سمبل، المنحوت في الصخر حوالي 1264 ق.م بأربعة تماثيل جبارة جالسة على واجهته، ومحاذاة شمسية تضيء الحرم الداخلي في 22 فبراير و22 أكتوبر من كل عام.", "ووادي الملوك أوضح مثال على حضارة تتعلم من أخطائها. فقد سُرقت أهرامات الدولتين القديمة والوسطى، فاختار ملوك الدولة الحديثة مقابر أرضية مخفية في وادٍ صحراوي معزول على الضفة الغربية للنيل في طيبة، حُفرت تحت قمة طبيعية على شكل هرم كانت مقدسة بوصفها تجسيدًا جنائزيًا للإلهة حتحور. ويضم الوادي أكثر من ستين مقبرة وعشرين أخرى غير مكتملة، وقد ترك المسؤول عن مقبرة تحتمس الأول عبارة تشبه تعليمات أمنية حتى اليوم: «أشرفت على حفر مقبرة صاحب الجلالة في السر، لا يرى أحد ولا يسمع». لكن الإخفاء لم ينجح إلى الأبد. فمقبرة توت عنخ آمون بقيت شبه سليمة فقط لأن الأنقاض غطّت مدخلها، والقناع الذهبي الذي كان يغطي رأسه وكتفيه جاء من هذه المصادفة الجيولوجية لا من تصميم مسبق.", "وبنهاية الأسرة العشرين، كانت الإمبراطورية تتراجع، والخزينة تحت ضغط، وكهنة آمون في طيبة يصبحون قوة بحد ذاتها. لم تنتهِ الدولة الحديثة بغزو، بل انتهت بفقدان المركز قبضته."] },
+    { heading: "العصر المتأخر (747–332 ق.م)", paragraphs: ["كان عصر الانتقال الثالث زمنًا من اللامركزية. فقد كانت الأسرة الحادية والعشرون معترفًا بها في البلاد كلها، لكن الوجه القبلي خضع لحكم مستقل بيد كبير كهنة آمون في طيبة، وأصبح الكهنة أعلى سلطة في البلاد. هذه هي الفترة التي يصبح فيها المعبد، لا القصر، مركز السلطة الحقيقي.", "العصر المتأخر هو عصر الأسر المصرية الأخيرة. وفي ظل الحكم الليبي بقيت البلاد منقسمة حتى نهاية الأسرة الرابعة والعشرين، حين استغل بسامتيك أمير صا الحجر انشغال آشور بالصراع مع بابل، فطرد الحامية الآشورية وأعلن نفسه ملكًا عام 663 ق.م، مؤسسًا الأسرة السادسة والعشرين. وتصفه المصادر المصرية بعصر الإصلاح والنهضة، وأنتج نهضة في الفن والعمارة والإدارة نظرت بوعي إلى فترات سابقة.", "ثم جاءت فارس. فاحتل قمبيز مصر، وتألفت الأسرة السابعة والعشرون من حكام فرس، وإن ثار المصريون كلما سنحت الفرصة. وشهدت الأسرتان الثامنة والعشرون والتاسعة والعشرون تغيرًا سريعًا للحكام، وكانت الأسرة الثلاثون قوية نسبيًا لكنها لم تصمد للغزو الفارسي الثاني. ويُعد نختنبو الثاني آخر ملوك مصر الوطنيين، وبعده حُكمت البلاد من الخارج، وهنا المفصل الذي تدور عنده صفحة مصر القديمة نحو العالم اليوناني والروماني."] },
+    { heading: "العصر البطلمي (332–30 ق.م)", paragraphs: ["دخل الإسكندر الأكبر مصر دون مقاومة، وقام برحلة إلى واحة سيوة حيث أُعلن ابنًا للإله آمون، وأمر بإنشاء الإسكندرية. وبعد وفاته أسّس قائده بطلميوس الأول الأسرة البطلمية، واتخذ لقب الملك، وجعل الإسكندرية العاصمة.", "وتبنّى البطالمة التقاليد الملكية المصرية وأمرّوا بتصوير أنفسهم على الآثار العامة بالأسلوب المصري، في حين شكّلت الثقافة الهلنستية المدينة: فمكتبة الإسكندرية والفنار نتاج ذلك البلاط المزدوج. وتصف المصادر المصرية العصر بأنه متصل ثقافيًا رغم الاضطراب السياسي، واستمر حتى وفاة كليوباترا السابعة عام 30 ق.م. فثلاثة قرون موّلت فيها أسرة تتحدث اليونانية معابدَ مصرية، وصوّرت نفسها فرعونًا، وحكمت بلدًا لا يزال يكتب بالهيروغليفية، وهو تذكير بأن مصر القديمة لم تنتهِ بغزو واحد، بل تكيّفت ثم تحولت ببطء، حتى حلت الولاية الرومانية محل المملكة."] },
+    { heading: "العصر الروماني (30 ق.م–395 م)", paragraphs: ["بعد وفاة كليوباترا، أصبحت مصر ولاية رومانية، ولأربعة قرون تالية كانت من أهم مصادر الغلال للإمبراطورية. واستمرت المعابد المصرية في العمل، واستمرت الكتابة الهيروغليفية في الاستخدام، وبقيت البلاد متميزة ثقافيًا حتى مع اندماجها سياسيًا.", "العصر الروماني هو حيث تنتهي صفحة مصر القديمة، لا لأن الحضارة المصرية اختفت، بل لأن الشكل السياسي الذي حددها — ملك محلي يحكم دولة موحدة — اختفى. ما بقي هو الثقافة واللغة والدين والآثار، ولهذا تبدأ الصفحة التالية في هذا الموقع لا بحضارة جديدة، بل بالبلد نفسه تحت حكام جدد."] },
   ],
-
 };
-
-
-
 
 function showAncientEgyptContent(version) {
   const sections = contentVersions[version];
-
   if (!sections) {
     throw new Error(`Unknown Ancient Egypt content version: ${version}`);
   }
@@ -162,7 +44,9 @@ function showAncientEgyptContent(version) {
   contentElement.lang = version === "arabic" ? "ar" : "en";
   contentElement.dir = version === "arabic" ? "rtl" : "ltr";
   pageTitle.textContent = version === "arabic" ? "مصر القديمة" : "Ancient Egypt";
-  document.title = version === "arabic" ? "مصر القديمة | تراث مصر الرقمي" : "Ancient Egypt | Masr Digital Heritage";
+  document.title = version === "arabic"
+    ? "مصر القديمة | تراث مصر الرقمي"
+    : "Ancient Egypt | Masr Digital Heritage";
   versionToggle.textContent = version === "arabic" ? "English" : "العربية";
   versionToggle.setAttribute(
     "aria-label",
@@ -172,16 +56,27 @@ function showAncientEgyptContent(version) {
   contentElement.replaceChildren(
     ...sections.map(({ heading, paragraphs }) => {
       const section = document.createElement("section");
-      section.className = "ancient-egypt-section";
+      section.className = "article-section ancient-egypt-section";
 
       const title = document.createElement("h2");
       title.textContent = heading;
       title.dir = "auto";
       section.append(title);
 
-      for (const text of paragraphs) {
+      for (const paragraphContent of paragraphs) {
+        const paragraphData = typeof paragraphContent === "string"
+          ? { text: paragraphContent }
+          : paragraphContent;
+
+        if (paragraphData.title) {
+          const paragraphTitle = document.createElement("h3");
+          paragraphTitle.textContent = paragraphData.title;
+          paragraphTitle.dir = "auto";
+          section.append(paragraphTitle);
+        }
+
         const paragraph = document.createElement("p");
-        paragraph.textContent = text;
+        paragraph.textContent = paragraphData.text;
         paragraph.dir = "auto";
         section.append(paragraph);
       }
@@ -192,7 +87,7 @@ function showAncientEgyptContent(version) {
 }
 
 window.showAncientEgyptContent = showAncientEgyptContent;
-versionToggle.addEventListener("click", () => {
-  showAncientEgyptContent(currentVersion === "english" ? "arabic" : "english");
+document.addEventListener("site-language-change", ({ detail }) => {
+  showAncientEgyptContent(detail.language);
 });
-showAncientEgyptContent("english");
+showAncientEgyptContent(document.documentElement.lang === "ar" ? "arabic" : "english");

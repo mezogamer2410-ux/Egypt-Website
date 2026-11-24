@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Masr Digital Heritage</title>
+    <title data-en="Masr Digital Heritage" data-ar="تراث مصر الرقمي">Masr Digital Heritage</title>
 
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="site-language.js" defer></script>
 </head>
 
 <body>
@@ -16,21 +17,21 @@
         
     </div>
     <div class="Homepage">
-        <img class="homepage-emblem" src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Coat_of_arms_of_Egypt_%28Official%29.svg" alt="Official coat of arms of Egypt">
-        <h1 class="titleh1">Egypt</h1>
+        <div class="site-language-header">
+            <button class="egypt-button site-language-toggle" id="content-version-toggle" type="button" aria-label="Switch to Arabic">العربية</button>
+        </div>
+        <h1 class="titleh1" data-en="Egypt" data-ar="مصر">Egypt</h1>
 
-        <p class="Homepage-text">
-            Egypt has always turned challenges into innovation.
-            From the Nile and the pyramids, to the October Victory in 1973,
-            to Digital Egypt today, this platform explores how Egypt's history,
-            scientists, and technology continue to shape its future.
+        <p class="Homepage-text" data-en="Egypt has always turned challenges into innovation. From the Nile and the pyramids, to the October Victory in 1973, to Digital Egypt today, this platform explores how Egypt's history, scientists, and technology continue to shape its future." data-ar="حوّلت مصر التحديات دائمًا إلى فرص للابتكار. من النيل والأهرامات، إلى نصر أكتوبر عام 1973، وصولًا إلى مصر الرقمية اليوم، تستكشف هذه المنصة كيف يواصل تاريخ مصر وعلماؤها وتقنياتها تشكيل مستقبلها.">
+            Egypt has always turned challenges into innovation. From the Nile and the pyramids, to the October Victory in 1973, to Digital Egypt today, this platform explores how Egypt's history, scientists, and technology continue to shape its future.
         </p>
      
         <div class="selection">
-            <a href="contentpages/ancient-egypt.html" class="egypt-button" id="ancient-egypt">Ancient Egypt</a>
-            <a href="contentpages/modern-egypt.html" class="egypt-button" id="modern-egypt">Modern Egypt</a>
-            <a href="contentpages/digital-egypt.html" class="egypt-button" id="digital-egypt">Digital Egypt</a>
-            <a href="contentpages/future-egypt.html" class="egypt-button" id="future-egypt">Future of Egypt</a>
+            <a href="contentpages/ancient-egypt.html" class="egypt-button" id="ancient-egypt" data-en="Ancient Egypt" data-ar="مصر القديمة">Ancient Egypt</a>
+            <a href="contentpages/modern-egypt.html" class="egypt-button" id="modern-egypt" data-en="Modern Egypt" data-ar="مصر الحديثة">Modern Egypt</a>
+            <a href="contentpages/digital-egypt.html" class="egypt-button" id="digital-egypt" data-en="Digital Egypt" data-ar="مصر الرقمية">Digital Egypt</a>
+            <a href="contentpages/future-egypt.html" class="egypt-button" id="future-egypt" data-en="Future of Egypt" data-ar="مستقبل مصر">Future of Egypt</a>
+            <a href="contentpages/tourism.html" class="egypt-button" id="tourism" data-en="Tourism" data-ar="السياحة">Tourism</a>
 
         </div>
     </div>
